@@ -1,13 +1,5 @@
-VERSION 1.0 CLASS
-BEGIN
-  MultiUse = -1  'True
-END
-Attribute VB_Name = "ThisWorkbook"
-Attribute VB_GlobalNameSpace = False
-Attribute VB_Creatable = False
-Attribute VB_PredeclaredId = True
-Attribute VB_Exposed = True
-#'Here we want to highlight the first cell
+
+'Here we want to highlight the first cell
 'if certains cell of the same row is the same
 Sub highlight_same()
 ' Firstly you declare your variables
@@ -22,4 +14,4 @@ For f = r To 1 Step -1
   End If
  Next
 
-End Sub#
+End Sub
